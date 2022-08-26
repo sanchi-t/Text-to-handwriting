@@ -212,6 +212,7 @@ def img2text(filename):
     img1 = np.array(Image.open(filename))
     
     #using tesseract tool to extract text with the help of numpy array
+    #enter the location of tesseract below on your system
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     text = pytesseract.image_to_string(img1)
     return text
