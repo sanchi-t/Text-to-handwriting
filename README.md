@@ -28,5 +28,6 @@ and make their life slightly easy.
 
 
 # Instructions
-1. you need to install tesseract(an ocr software by google)
-2. 
+1. You need to install tesseract(an ocr software by google)
+2. Enter the location of tesseract.exe of your system in the fuction img2text
+3. Enjoy :)
